@@ -21,7 +21,7 @@ The original exploit script on Exploit-DB contained several hardcoded values and
 
 ---
 
-## 🔍 Code Comparison: Before vs. After
+## Code Comparison: Before vs. After
 
 ### 1. Handling Credentials
 **Before:**

